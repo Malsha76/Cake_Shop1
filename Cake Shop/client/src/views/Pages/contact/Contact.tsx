@@ -35,7 +35,7 @@ export class Contact extends Component <ContactProps,ContactState>{
             <>
                 {/*<h1 className={'text-center text-3xl text-[#005B41]'}>This is a Contact Component</h1>*/}
                 <div className="flex ">
-                    <div className="h-96 w-1/2 pt-5 pb-5 pl-10 mx-auto bg-gradient-to-r from-yellow-200 to-yellow-400 rounded-3xl mb-5">
+                    <div className="h-96 w-1/2 pt-5 pb-5 pl-10 mx-auto bg-gradient-to-r from-pink-200 to-pink-400 rounded-3xl mb-5">
 
                         <div className="p-2 mb-5 ">
                             <h2 className="text-3xl mb-5 text-black font-bold-2xl text-center decoration-2">Contact Us</h2>
@@ -51,19 +51,19 @@ export class Contact extends Component <ContactProps,ContactState>{
 
                                 <div className="pb-5">
                                     <label className="text-[10px] pr-2 font-bold">Your Subject: </label>
-                                    <input className="float-right w-96 border-[1px] border-green-200" type="text"
+                                    <input className="float-right w-96 border-[1px] border-purple-200" type="text"
                                            name={"subject"} value={this.state.subject} onChange={this.handleMessageInputOnChange}/>
                                 </div>
 
                                 <div className="pb-5">
                                     <label className="text-[10px] pr-2 font-bold">Your Massage: </label>
-                                    <textarea className="float-right w-96 border-[1px] border-green-200" name="message"
+                                    <textarea className="float-right w-96 border-[1px] border-purple-200" name="message"
                                               value={this.state.message} onChange={this.handleMessageInputOnChange}/>
                                 </div>
 
                                 <div className=" mt-2">
                                     <button type="button"
-                                            className={"m-5 p-[10px] bg-green-600 rounded-b-sm text-[12px] hover:text-white"} onClick={this.onSendButtonClick}>Submit
+                                            className={"m-5 p-[10px] bg-purple-600 rounded-b-sm text-[12px] hover:text-white"} onClick={this.onSendButtonClick}>Submit
                                     </button>
                                 </div>
 
