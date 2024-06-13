@@ -5,7 +5,7 @@ import {About} from "../../pages/about/About";
 import {Contact} from "../../pages/contact/Contact";
 import {ShoppingCart} from "../../pages/ShoppingCart/ShoppingCart";
 import {ModifyCart} from "../ModifyCart/ModifyCart";
-import ricePlate from '../../../assets/cake.jpg'
+import cake from '../../../assets/cake.jpg'
 import {Product} from "../Product/Product";
 
 export class MainContent extends Component {
