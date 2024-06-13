@@ -50,3 +50,14 @@ componentDidUpdate(prevProps: Readonly<ModifyCartProps>, prevState: Readonly<Mod
       
             console.log(ModifyCart.itemsList)
         }
+        render() {
+
+            let {itemCount} = this.state;
+    
+            const onDecreaseItemCount = ()=> {
+                if (itemCount > 1) {
+                    this.setState({itemCount: --itemCount})
+                } else {
+                    alert("Item count can't be less than 1");
+                }
+            }
