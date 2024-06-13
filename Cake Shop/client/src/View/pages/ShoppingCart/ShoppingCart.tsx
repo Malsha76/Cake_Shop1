@@ -1,7 +1,7 @@
 import {Component} from "react";
 import {CartItem} from "../../../model/CartItem";
-import ricePlate from "../../../assets/cake.jpg";
-import bag from "../../../assets/cake_background";
+import cake from "../../../assets/cake.jpg";
+import bag from "../../../assets/cake_background.jpg";
 interface ShoppingCartProps {
     itemsList: CartItem[];
 }
@@ -14,7 +14,6 @@ export class ShoppingCart
 
             <div className="flex justify-center
                   items-center min-h-fit mt-16 mb-52  " >
-                {/*<img className='scale-95 ' src={bag} alt='cake'/>*/}
                 <table className="w-full mx-6">
                     <tr className="bg-gray-400">
                         <th className="text-[20px]
@@ -55,11 +54,11 @@ export class ShoppingCart
         );
         return (
             <div style={{
-                backgroundImage: `url("../../../assets/cake_background")
+                backgroundImage: `url("../../../images/food-background-1.jpg")`
             }}>
-               
+                Hello World
             </div>
         );
 
-    
+    }
 }

@@ -38,9 +38,7 @@ export class Home extends Component {
         }
     }
 
-
-
-    // @ts-ignore
+  // @ts-ignore
     render() {
 
         // @ts-ignore
