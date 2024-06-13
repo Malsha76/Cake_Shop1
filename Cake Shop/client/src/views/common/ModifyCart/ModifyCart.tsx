@@ -61,3 +61,8 @@ componentDidUpdate(prevProps: Readonly<ModifyCartProps>, prevState: Readonly<Mod
                     alert("Item count can't be less than 1");
                 }
             }
+            const onIncreaseItemCount = () => {
+                this.setState({itemCount: ++itemCount})
+            }
+
+            
