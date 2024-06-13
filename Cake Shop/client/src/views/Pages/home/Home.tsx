@@ -31,3 +31,17 @@ export class Home extends Component {
     console.log("Data Not Found")
 }
         }
+
+        render() {
+
+            // @ts-ignore
+            const {data}=this.state;
+            return (
+                <>
+                    <div className='ricePlate flex justify-center items-center gap-44 bg-pink-200 from-fuchsia-200'>
+                        <div className={'pl-32'}>
+                            <h4 className='text-2xl font-bold'>WELCOME COME TO</h4>
+                            {/*<h1 className='text-8xl font-bold'>to</h1>*/}
+                            <h1 className='text-8xl font-bold'>Cuppy Cake</h1>
+                            {/*<h1 className='text-8xl font-bold'>for you</h1>*/}
+                            <h6 className={''}>where every slice is a piece of heaven!</h6>
