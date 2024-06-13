@@ -16,6 +16,14 @@ export class Home extends Component {
         }
     }
 
-
-   
+    componentDidMount() {
+        this.fetchData();
+        fetchData= async ()=>{
+            try {
+                this.api.get('/products/all').then((res:{data:any}) =>{
+                    const jsonData=res.data;
+                    this.setState({data:jsonData});
+                }).catch((error:any)=>{
+                    console.log("Axios Error");
+                }) 
 }
