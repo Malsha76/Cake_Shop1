@@ -5,11 +5,11 @@ import logo from '../../../assets/Logo.png';
 export class NavBar extends Component {
     render() {
         return (
-            <div className="p-5 flex items-center justify-between bg-gradient-to-r from-white-100 to-pink-200 shadow-md rounded-lg">
+            <div className="p-5 flex items-center justify-between bg-gradient-to-r from-white-100 to-pink-100 shadow-md rounded-lg">
                 <Link to="/">
                     <div className="flex items-center">
                         <img className="h-20 w-40 mr-3" src={logo} alt="Logo" />
-                        <h1 className="text-2xl text-white font-bold">Cuppy Cake</h1>
+                        <h1 className="text-2xl text-white font-bold">Cake Craze </h1>
                     </div>
                 </Link>
 

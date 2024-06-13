@@ -53,7 +53,7 @@ export class Footer extends Component {
                             <div className="flex rounded-lg shadow-sm">
 
                                 <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-lg
-                                 focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-purple-500 dark:focus:border-purple-500"
+                                 focus:ring-purple-400 focus:border-purple-300 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-purple-400 dark:focus:border-purple-300"
                                        placeholder="Enter Your Email" required/>
                                 <button type="button"
                                         className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-r-lg border border-transparent
@@ -66,7 +66,7 @@ export class Footer extends Component {
                     </div>
 
                     <div className="py-6 px-4 bg-gray-700 md:flex md:items-center md:justify-center">
-                <span className="text-sm text-gray-300 sm:text-center">© 2024 Cuppy Cake. All Rights Reserved.
+                <span className="text-sm text-gray-300 sm:text-center">© 2024 Cake Craze. All Rights Reserved.
                 </span>
                     </div>
 
