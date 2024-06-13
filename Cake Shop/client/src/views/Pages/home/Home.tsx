@@ -26,4 +26,8 @@ export class Home extends Component {
                 }).catch((error:any)=>{
                     console.log("Axios Error");
                 }) 
+
+}catch (error){
+    console.log("Data Not Found")
 }
+        }
