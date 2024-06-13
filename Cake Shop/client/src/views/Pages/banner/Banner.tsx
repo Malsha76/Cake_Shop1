@@ -1,5 +1,5 @@
 import {Component} from "react";
-import ricePlate from "../../../assets/cake.jpg";
+import cake from "../../../assets/cake.jpg";
 
 export class Banner extends Component {
     render() {

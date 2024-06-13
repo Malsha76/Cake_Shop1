@@ -1,5 +1,5 @@
 import {Component} from "react";
-import menu from "../../../images/MenuCard.webp";
+import menu from "../../../assets/MenuCard.webp";
 
 export class About extends Component {
     render() {
@@ -9,21 +9,18 @@ export class About extends Component {
                 <div className={' flex '}>
                     <div className={'h-auto pt-5 pl-10 pr-10 mx-auto'}>
                         <h1 className={'mb-2 italic pd-8px text-3xl text-pink-300 underline decoration-2'}> About Us</h1>
-                        <p className={'pb-3 text-9px'}> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Deleniti ea earum enim ex excepturi explicabo laborum libero optio repudiandae tenetur.
+                        <p className={'pb-3 text-9px'}> At Sweet Delights Cake Shop, we believe that every occasion deserves a sweet celebration. Our bakery specializes 
+                            in crafting exquisite cakes that not only look stunning but taste divine.
                             <br/>
                             <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            A cumque delectus, ea expedita magnam nisi possimus quaerat quibusdam.
-                            Facere, molestias.
+                            From classic favorites to innovative designs, each cake is made with the finest ingredients and a touch of love. Whether you're celebrating a birthday, 
+                            wedding, or any special event, our team is dedicated to making your moments unforgettable.
                             <br/>
                             <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ad animi atque commodi, consectetur corporis cumque dolores doloribus ea eius excepturi, exercitationem explicabo hic illo illum labore magni mollitia non officiis provident quae quam quia quisquam reprehenderit rerum sapiente sit,
+                            Visit us and experience the magic of our delectable creations!
                             
                             <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Ab atque beatae, corporis dicta doloremque earum fugiat hic magnam nam,
+                            
                         </p>
                     </div>
                 </div>

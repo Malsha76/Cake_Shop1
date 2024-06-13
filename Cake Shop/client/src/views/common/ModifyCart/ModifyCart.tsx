@@ -42,7 +42,7 @@ export class ModifyCart
             .find(item =>
                 item.product.id ===
                 this.props.data.product.id);
-      
+        // @ts-ignore
         let index = ModifyCart.itemsList.indexOf(item);
         ModifyCart.itemsList.splice(index, 1);
         ModifyCart.itemsList.push(
@@ -70,7 +70,7 @@ export class ModifyCart
 
         return (
             <div className="w-full mt-1 p-[2.4px]
-                                            bg-pink-400 text-[20px]
+                                            bg-purple-600 text-[20px]
                                             text-center">
                 <button className="float-left text-[20px]
                                         bg-pink-300 rounded-lg h-8 w-8"
