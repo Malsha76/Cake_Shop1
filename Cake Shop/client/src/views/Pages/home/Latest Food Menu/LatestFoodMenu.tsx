@@ -9,10 +9,10 @@ export class LatestFoodMenu extends Component {
                     
                         <div className="p-6">
                             <h2 className="text-xl font-bold text-gray-800">Card Title</h2>
-                            <p className="mt-2 text-gray-600">consectetur adipiscing
+                            <p className="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit.</p>
                             <div className="mt-4">
-                                <span className="text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem enim, laboriosam quibusdam odit obcaecati, illum voluptatem porro autem culpa quasi doloribus eius aliquam eveniet aut neque rerum soluta error. Dolore.</span>
+                                <span className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rem sapiente beatae explicabo soluta quos hic ipsa officiis fugiat porro blanditiis consectetur a ab ipsam, molestias qui repudiandae praesentium obcaecati.</span>
                             </div>
                         </div>
                 </div>
