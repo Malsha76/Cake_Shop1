@@ -2,16 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  .main-btn {
-      @apply bg-amber-950 text-white px-5 py-3 hover:bg-amber-950
-  }
-  .second-btn {
-      @apply bg-gray-200 text-gray-600 px-5 py-3 hover:bg-gray-300
-  }
-}
-
-.ql-container {
-  min-height: 500px;
-}
