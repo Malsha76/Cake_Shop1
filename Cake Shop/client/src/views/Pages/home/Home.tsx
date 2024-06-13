@@ -45,3 +45,22 @@ export class Home extends Component {
                             <h1 className='text-8xl font-bold'>Cuppy Cake</h1>
                             {/*<h1 className='text-8xl font-bold'>for you</h1>*/}
                             <h6 className={''}>where every slice is a piece of heaven!</h6>
+                            <button className='bg-red-600 rounded-full p-2 text-2xl mt-20' onClick={this.latestMenuList}>Latest Collection</button>
+                    </div>
+                    <div className={''}>
+                        <img className='scale-95 ' src={ricePlate} alt='ricePlate'/>
+                    </div>
+                    </div>
+
+<div className={'flex'}>
+    <div className={'flex flex-wrap justify-center items-center mx-auto mt-5 mb-5 shadow-md '}>
+
+        {
+           data.map((product:any)=>( //loop array
+               <Product key={product.id} data={product}/>
+           ) )
+        }
+    </div>
+    </div>
+            </>
+        );
