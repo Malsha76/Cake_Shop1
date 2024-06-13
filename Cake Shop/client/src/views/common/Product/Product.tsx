@@ -17,4 +17,10 @@ export class Product extends Component<ProductProps, ProductState> {
             isActive: false
         }
     }
+    render() {
+
+        const {data}=this.props;
+        console.log(data.image)
+        const image = require('../../../assets/product/' + data.image)
+     
 }
