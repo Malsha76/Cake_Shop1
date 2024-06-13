@@ -5,7 +5,7 @@ export class Banner extends Component {
     render() {
         return (
             <>
-                <div className='ricePlate flex justify-center items-center gap-44 bg-pink-200 from-fuchsia-200'>
+                <div className='cake flex justify-center items-center gap-44 bg-pink-200 from-fuchsia-200'>
                     <div className={'pl-32'}>
                         <h4 className='text-2xl font-bold'>WELCOME TO</h4>
                         {}
