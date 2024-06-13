@@ -1,58 +1,44 @@
 [
   {
     "id": 1,
-    "name": "Lasanga",
-    "price": "300",
+    "name": "Choclate Cake",
+    "price": "2300",
     "currency": "LKR",
-    "image": "Lasanga2.jpg"
+    "image": "menu1.jpg"
   },
   {
     "id": 2,
-    "name": "Lasanga New",
-    "price": "300",
+    "name": "pinnaple Gato",
+    "price": "1600",
     "currency": "LKR",
-    "image": "Lasanga.jpg"
+    "image": "menu2.jpg"
   },
   {
     "id": 3,
-    "name": "Piza",
-    "price": "250",
+    "name": "Choclate Chips Gato",
+    "price": "2200",
     "currency": "LKR",
-    "image": "Piza1.png"
+    "image": "menu3.jpg"
   },
   {
     "id": 4,
-    "name": "Piza New",
-    "price": "250",
+    "name": "Birthday Cake",
+    "price": "1850",
     "currency": "LKR",
-    "image": "Piza2.png"
+    "image": "menu4.jpg"
   },
   {
     "id": 5,
-    "name": "Rice&Carry",
-    "price": "250",
+    "name": "Aniversary Cake",
+    "price": "3000",
     "currency": "LKR",
-    "image": "Rice&Carry.jpeg"
+    "image": "menu5.jpg"
   },
   {
     "id": 6,
-    "name": "Salad",
-    "price": "250",
+    "name": "Butterfly Cake",
+    "price": "2000",
     "currency": "LKR",
-    "image": "Salad.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Noodel",
-    "price": "250",
-    "currency": "LKR",
-    "image": "Noodel.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Koththu",
-    "price": "200",
-    "currency": "LKR",
-    "image": "Koththu.png"
+    "image": "menu6.jpg"
   }
 ]
