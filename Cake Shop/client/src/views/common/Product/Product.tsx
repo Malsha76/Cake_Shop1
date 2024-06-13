@@ -50,7 +50,7 @@ export class Product extends Component<ProductProps, ProductState> {
                                 </button>
                         }
                     </div>
-
-</>
-);
-              }
+                    </div>}
+            </>
+        );
+    }
