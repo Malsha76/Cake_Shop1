@@ -36,13 +36,13 @@ export class Footer extends Component {
                             <h2 className="mb-6  text-2xl font-semibold text-gray-400 uppercase">Contact</h2>
                             <ul className="text-gray-300">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">+94 764 658 101</a>
+                                    <a href="#" className="hover:underline">+94 77 1234 567</a>
                                 </li>
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">tharu@gmail.com</a>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">No: 4/2, School Lane, Kahawa.</a>
+                                    <a href="#" className="hover:underline">205/ Temple Road, Kaduwela.</a>
                                 </li>
 
                             </ul>
@@ -57,7 +57,7 @@ export class Footer extends Component {
                                        placeholder="Enter Your Email" required/>
                                 <button type="button"
                                         className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-r-lg border border-transparent
-                                         bg-purple-600 text-white hover:bg-purple-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                                         bg-purple-400 text-black hover:bg-purple-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                                     Subscribe
                                 </button>
                             </div>
